@@ -117,7 +117,321 @@
 	// "problems.decorations.enabled": false,
 
 	"breadcrumbs.enabled": false,
-	"breadcrumbs.filePath": "last"
+	"breadcrumbs.filePath": "last",
+	
+	// --------------------------------------------------------------------------------
+
+	// Shortcut Menu Bar – Adds buttons to editor menu bar (e.g. Save button)
+	// https://marketplace.visualstudio.com/items?itemName=jerrygoyal.shortcut-menu-bar
+
+	"Navigate back": false,
+	"Open files list": false,
+	"Beautify active file": false,
+	"Navigate forward": false,
+	"Toggle terminal": false,
+	"Save active file": true,
+
+	// --------------------------------------------------------------------------------
+	
+	"workbench.colorCustomizations": {},
+	
+	/*
+	"workbench.colorCustomizations": {
+		"activityBarBadge.background": "#00BCD4",
+		"list.activeSelectionForeground": "#00BCD4",
+		"list.inactiveSelectionForeground": "#00BCD4",
+		"list.highlightForeground": "#00BCD4",
+		"scrollbarSlider.activeBackground": "#00BCD450",
+		"editorSuggestWidget.highlightForeground": "#00BCD4",
+		"textLink.foreground": "#00BCD4",
+		"progressBar.background": "#00BCD4",
+		"pickerGroup.foreground": "#00BCD4",
+		"tab.activeBorder": "#00BCD4",
+		"notificationLink.foreground": "#00BCD4",
+		//"sideBar.background": "#00000077",
+		//"activityBar.background": "#ffffff00"
+		// "editor.selectionBackground": "#0556b9",
+		"editor.selectionHighlightBackground": "#192a56dd",
+		"editor.wordHighlightBackground": "#00000010",
+		//"editor.wordHighlightStrongBackground": "#ff0000",
+		//"editorCursor.foreground": "#5f27cd",
+		//"editor.lineHighlightBackground": "#f00",
+		"editor.hoverHighlightBackground": "#222f3e",
+	},
+	*/
+	
+	"materialTheme.cache.workbench.settings": {
+		"accent": "Cyan",
+		"accentPrevious": "Sky"
+	},
+	
+	// --------------------------------------------------------------------------------
+
+	// TODO Highlight – Highlights `TODO`, `FIXME` and other annotations within the code.
+	// https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight
+
+	"todohighlight.keywords": [
+		{
+			"text": "__commentme__",
+			"color": "white",
+			"backgroundColor": "rgba(0,0,0,.1)",
+		},
+		{
+			"text": "TODO:",
+			"color": "#f44336",
+			// "border": "1px solid red",
+			// "borderRadius": "2px",
+			"border": "1px solid transparent",
+			"backgroundColor": "rgba(0,0,0,0)",
+		},
+		{
+			"text": "FIXME:",
+			"color": "#9c88ff",
+			"backgroundColor": "rgba(0,0,0,0)",
+		},
+		{
+			"text": "NOTE:",
+			"color": "#ff9f43", // "#ffb301"
+			"backgroundColor": "rgba(0,0,0,0)",
+		},
+		{
+			"text": "READ:",
+			"color": "#1dd1a1",
+			"backgroundColor": "rgba(0,0,0,0)",
+		},
+		{
+			"text": "USE:",
+			"color": "#0097e6",
+			"backgroundColor": "rgba(0,0,0,0)",
+		},
+		{
+			"text": "REVIEW:",
+			"color": "#64dd17",
+			"backgroundColor": "rgba(0,0,0,0)",
+		},        
+		{
+			"text": "STUB:",
+			"color": "#3ea6f7",
+			"backgroundColor": "rgba(0,0,0,0)",
+		},
+		{
+			"text": "SEE:",
+			"color": "#9c88ff",
+			"backgroundColor": "rgba(0,0,0,0)",
+		},
+	],
+
+	// Comment Anchors – Place anchor tags within comments for easy file & workspace navigation.
+	// https://marketplace.visualstudio.com/items?itemName=ExodiusStudios.comment-anchors
+
+	"commentAnchors.tags.list": [
+		{
+			"tag": "ANCHOR",
+			"iconColor": "default",
+			"highlightColor": "#A8C023",
+			"isItalic": false,
+			"scope": "file"
+		},
+		{
+			"tag": "TODO",
+			"iconColor": "blue",
+			"highlightColor": "#f44336",
+			"isItalic": false,
+			"scope": "workspace",
+		},
+		{
+			"tag": "FIXME",
+			"iconColor": "red",
+			"highlightColor": "#9c88ff",
+			"isItalic": false,
+			"scope": "workspace"
+		},
+		{
+			"tag": "STUB",
+			"iconColor": "purple",
+			"highlightColor": "#BA68C8",
+			"isItalic": false,
+			"scope": "file"
+		},
+		{
+			"tag": "NOTE",
+			"iconColor": "orange",
+			"highlightColor": "#ff9f43",
+			"isItalic": false,
+			"scope": "file"
+		},
+		{
+			"tag": "REVIEW",
+			"iconColor": "green",
+			"highlightColor": "#64DD17",
+			"isItalic": false,
+			"scope": "workspace"
+		},
+		{
+			"tag": "SECTION",
+			"iconColor": "blurple",
+			"highlightColor": "#896afc",
+			"isItalic": false,
+			"scope": "workspace",
+			"isRegion": true
+		}
+	],
+
+	// "commentAnchors.tagHighlights.enabled": false,
+
+	// Better Comments – Improve your code commenting by annotating with alert, informational, TODOs, and more!
+	// https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
+
+	"better-comments.multilineComments": true,
+	"better-comments.highlightPlainText": true,
+
+	"better-comments.tags": [
+		{
+			"tag": "!",
+			"color": "#eb3b5a",
+			"strikethrough": false,
+			"backgroundColor": "transparent"
+		},
+		{
+			"tag": "?",
+			"color": "#3498DB",
+			"strikethrough": false,
+			"backgroundColor": "transparent"
+		},
+		{
+			"tag": "//",
+			"color": "#4b6584",
+			"strikethrough": false,
+			"backgroundColor": "transparent"
+		},
+		/*
+		{
+			"tag": "TODO",
+			"color": "#eb3b5a",
+			"strikethrough": false,
+			"backgroundColor": "transparent"
+		},
+		*/
+		{
+			"tag": "*",
+			"color": "#f7b731",
+			"strikethrough": false,
+			"backgroundColor": "transparent"
+		},
+		{
+			"tag": "#",
+			"color": "#9c88ff",
+			"strikethrough": false,
+			"backgroundColor": "transparent"
+		},
+	],
+
+	// Highlight Matching Tag – Highlights matching closing and opening tags
+	// https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag
+
+	"highlight-matching-tag.styles": {
+		"opening": {
+			"left": {
+				// "surround": "#f44336"
+			},
+			"name": {
+				// "underline": "transparent",
+				"underline": "rgba(247, 183, 49, 1.0)",
+			}
+		},
+		"closing": {
+			"full": {
+				// "underline": "rgba(247, 183, 49, 1.0)"
+			},
+			"name": {
+				// "underline": "transparent"
+				"underline": "rgba(247, 183, 49, 1.0)"
+			},
+			"right": {
+				// "surround": "red"
+			}
+		}
+	},
+
+	"selectinsidesidebar.defaultStyle": {
+		"backgroundColor": "transparent",
+		"overviewRulerColor": "rgba(45, 152, 218, 0.6)"
+	},
+
+	"highlightSelections.borderColor": "rgba(101, 234, 185, 0.5)",
+	"highlightSelections.borderStyle": "solid",
+	"highlightSelections.borderWidth": "1px",
+
+	"divider.text.level1": "─",
+	"divider.text.level2": "─",
+
+	// --------------------------------------------------------------------------------
+	
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	
+	// --------------------------------------------------------------------------------
+	
+	"git.confirmSync": false,
+	"git.autofetch": true,
+	"git.enableSmartCommit": true,
+	
+	"http.proxy": "http://localhost:3128/",
+	"https.proxy": "http://localhost:3128/",
+
+	// --------------------------------------------------------------------------------
+	
+	// "debug.node.autoAttach": "on"
+
+	"jshint.options": {
+		"esversion":6
+	},
+
+	"code-runner.runInTerminal": true,
+
+	"phpcs.enable": false,
+	"phpcs.standard": "C:\\Users\\David\\ruleset.xml",
+
+	"arduino.path": "C:\\development\\Arduino\\arduino",
+
+	"php.suggest.basic": false,
+
+	"java.semanticHighlighting.enabled": true,
+	
+	"sshfs.configs": [
+		{
+			"host": "localhost",
+			"label": "Termux (local)",
+			"name": "termux-local",
+			"port": 8022,
+			"privateKeyPath": "$USERPROFILE/.ssh/github_rsa",
+			"root": "~",
+			"username": "$USERNAME"
+		}
+	],
+
+
+	"files.associations": {
+		"*.msbuildproj": "xml"
+	},
+
+	"[txt]": {
+		
+	},
+
+	"spellright.language": [
+		"en"
+	],
+	"spellright.documentTypes": [
+		"markdown",
+		"latex",
+		"plaintext",
+		"javascript",
+		"cpp"
+	],
+	
+	"cSpell.language": "en,en-US,en-GB",
+	"cSpell.userWords": []
 
 	// --------------------------------------------------------------------------------
 	
