@@ -9,116 +9,116 @@
 
  {
 
-    // --------------------------------------------------------------------------------
+	// --------------------------------------------------------------------------------
 
-    // "files.autoSave": "onFocusChange",
+	// "files.autoSave": "onFocusChange",
 
-    "window.menuBarVisibility": "visible", // "toggle"
-    "window.titleBarStyle": "custom",
-    // "window.transparency": "fluent",
+	"window.menuBarVisibility": "visible", // "toggle"
+	"window.titleBarStyle": "custom",
+	// "window.transparency": "fluent",
 
-    "terminal.integrated.fontFamily": "'Source Code Pro', Consolas, agave, 'Cascadia Code', 'Hasklig', 'Fira Code', Menlo, 'SF Mono', 'DejaVu Sans Mono', 'Lucida Console', 'Bitstream Vera Sans Mono', monospace",
-    "terminal.integrated.fontSize": 12,
+	"terminal.integrated.fontFamily": "'Source Code Pro', Consolas, agave, 'Cascadia Code', 'Hasklig', 'Fira Code', Menlo, 'SF Mono', 'DejaVu Sans Mono', 'Lucida Console', 'Bitstream Vera Sans Mono', monospace",
+	"terminal.integrated.fontSize": 12,
 
-    "terminal.integrated.fontWeight": "400",
-    "terminal.integrated.fontWeightBold": "600",
-    
-    // "terminal.integrated.shell.windows": "bash.exe",
+	"terminal.integrated.fontWeight": "400",
+	"terminal.integrated.fontWeightBold": "600",
+	
+	// "terminal.integrated.shell.windows": "bash.exe",
 
-    "terminal.integrated.cwd": "${fileDirname}",
+	"terminal.integrated.cwd": "${fileDirname}",
 
-    "terminal.integrated.shell.windows": "cmd.exe",
+	"terminal.integrated.shell.windows": "cmd.exe",
 
-    "terminal.integrated.shellArgs.windows": [
-        "/k", "cd /d %CD% & ver &",
-        "%CMDER_ROOT%\\vendor\\init.bat"
-    ],
+	"terminal.integrated.shellArgs.windows": [
+		"/k", "cd /d %CD% & ver &",
+		"%CMDER_ROOT%\\vendor\\init.bat"
+	],
 
 	// "terminal.external.windowsExec": "C:\\development\\cmder\\Cmder.exe",
 
-    "editor.renderWhitespace": "none", // "selection", "trailing"
-    
-    "editor.fontSize": 12,
-    "editor.dragAndDrop": true,
-    "editor.tabSize": 4,
-    "editor.insertSpaces": false, // I prefer tabs
+	"editor.renderWhitespace": "none", // "selection", "trailing"
+	
+	"editor.fontSize": 12,
+	"editor.dragAndDrop": true,
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false, // I prefer tabs
 
-    "editor.fontFamily": "'Hasklig', 'Source Code Pro', 'Fira Code', 'Cascadia Code', Consolas, Menlo, 'SF Mono', 'Monaco', 'Andale Mono', 'Lucida Console', 'Bitstream Vera Sans Mono', monospace",
-    "editor.fontLigatures": true,
+	"editor.fontFamily": "'Hasklig', 'Source Code Pro', 'Fira Code', 'Cascadia Code', Consolas, Menlo, 'SF Mono', 'Monaco', 'Andale Mono', 'Lucida Console', 'Bitstream Vera Sans Mono', monospace",
+	"editor.fontLigatures": true,
 
 	"editor.detectIndentation": true,
-    // "editor.insertSpaces": false,
+	// "editor.insertSpaces": false,
 
 	// "editor.scrollbar.verticalScrollbarSize": 5,
 	// "editor.rulers": [ 80 ]
 
-    // Controls if quick suggestions should show up while typing
-    "editor.quickSuggestions": true,
+	// Controls if quick suggestions should show up while typing
+	"editor.quickSuggestions": true,
 
-    // Controls if suggestions should be accepted with "Enter" - in addition to "Tab". Helps to avoid ambiguity between inserting new lines and accepting suggestions.
-    "editor.acceptSuggestionOnEnter": "smart",
+	// Controls if suggestions should be accepted with "Enter" - in addition to "Tab". Helps to avoid ambiguity between inserting new lines and accepting suggestions.
+	"editor.acceptSuggestionOnEnter": "smart",
 
-    // Controls the delay in ms after which quick suggestions will show up.
-    "editor.quickSuggestionsDelay": 10,
+	// Controls the delay in ms after which quick suggestions will show up.
+	"editor.quickSuggestionsDelay": 10,
 
-    // Enable word based suggestions
-    "editor.wordBasedSuggestions": false,
+	// Enable word based suggestions
+	"editor.wordBasedSuggestions": false,
 
-    // "editor.autoClosingBrackets": "languageDefined",
-    "editor.autoClosingBrackets": "beforeWhitespace",
-    "editor.suggestOnTriggerCharacters": true,
+	// "editor.autoClosingBrackets": "languageDefined",
+	"editor.autoClosingBrackets": "beforeWhitespace",
+	"editor.suggestOnTriggerCharacters": true,
 
-    "editor.accessibilitySupport": "off",
+	"editor.accessibilitySupport": "off",
 
-    "workbench.startupEditor": "none", // "newUntitledFile",
-    
-    // "editor.occurrencesHighlight": false,
-    // "editor.selectionHighlight": false,
-    "editor.multiCursorModifier": "ctrlCmd", // "alt"
+	"workbench.startupEditor": "none", // "newUntitledFile",
+	
+	// "editor.occurrencesHighlight": false,
+	// "editor.selectionHighlight": false,
+	"editor.multiCursorModifier": "ctrlCmd", // "alt"
 
-    "editor.lightbulb.enabled": true, // mapped to Alt + Enter (formerly Ctrl + .)
+	"editor.lightbulb.enabled": true, // mapped to Alt + Enter (formerly Ctrl + .)
 
-    "window.zoomLevel": 0,
+	"window.zoomLevel": 0,
 
-    // --------------------------------------------------------------------------------
-    
-    // "window.compositionAttribute": "acrylic",
+	// --------------------------------------------------------------------------------
+	
+	// "window.compositionAttribute": "acrylic",
 
-    "workbench.colorTheme": "Atom One Dark",
+	"workbench.colorTheme": "Atom One Dark",
 	// "workbench.colorTheme": "One Dark Pro Vivid",
-    
-    "workbench.iconTheme": "eq-material-theme-icons",
-    // "workbench.iconTheme": "file-icons",
-    
-    "editor.cursorBlinking": "smooth", // phase
-    
-    // "editor.cursorSmoothCaretAnimation": true,
-    // "editor.cursorStyle": "block",
-    
-    "editor.smoothScrolling": true,
+	
+	"workbench.iconTheme": "eq-material-theme-icons",
+	// "workbench.iconTheme": "file-icons",
+	
+	"editor.cursorBlinking": "smooth", // phase
+	
+	// "editor.cursorSmoothCaretAnimation": true,
+	// "editor.cursorStyle": "block",
+	
+	"editor.smoothScrolling": true,
 	// "editor.mouseWheelScrollSensitivity": 2,
-    "editor.scrollBeyondLastLine": true,
+	"editor.scrollBeyondLastLine": true,
 
-    "editor.minimap.enabled": true,
-    "editor.renderControlCharacters": true,
-    
-    "workbench.statusBar.feedback.visible": false,
+	"editor.minimap.enabled": true,
+	"editor.renderControlCharacters": true,
+	
+	"workbench.statusBar.feedback.visible": false,
 
-    "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
+	"workbench.statusBar.visible": true,
+	"workbench.activityBar.visible": true,
 
-    "workbench.sideBar.location": "left",
+	"workbench.sideBar.location": "left",
 
-    "workbench.list.smoothScrolling": true,
+	"workbench.list.smoothScrolling": true,
 
-    // "explorer.openEditors.visible": 0,
-    // "explorer.confirmDelete": false,
-    // "explorer.decorations.badges": false,
-    // "problems.decorations.enabled": false,
+	// "explorer.openEditors.visible": 0,
+	// "explorer.confirmDelete": false,
+	// "explorer.decorations.badges": false,
+	// "problems.decorations.enabled": false,
 
-    "breadcrumbs.enabled": false,
-    "breadcrumbs.filePath": "last"
+	"breadcrumbs.enabled": false,
+	"breadcrumbs.filePath": "last"
 
-    // --------------------------------------------------------------------------------
-    
+	// --------------------------------------------------------------------------------
+	
 }
