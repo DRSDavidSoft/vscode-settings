@@ -1,6 +1,8 @@
 /**
  * 
  * VS Code Configuration file
+ * Tip: Press ctrl+shift+, at any time to open this file (settings.json)
+ *
  * David Refoua <David@Refoua.me>
  *
  */
@@ -11,7 +13,7 @@
 
     // "files.autoSave": "onFocusChange",
 
-    "window.menuBarVisibility": "visible", // OR: "toggle"
+    "window.menuBarVisibility": "visible", // "toggle"
     "window.titleBarStyle": "custom",
     // "window.transparency": "fluent",
 
@@ -22,6 +24,8 @@
     "terminal.integrated.fontWeightBold": "600",
     
     // "terminal.integrated.shell.windows": "bash.exe",
+
+    "terminal.integrated.cwd": "${fileDirname}",
 
     "terminal.integrated.shell.windows": "cmd.exe",
 
@@ -72,12 +76,14 @@
     // "editor.selectionHighlight": false,
     "editor.multiCursorModifier": "ctrlCmd", // "alt"
 
+    "editor.lightbulb.enabled": true, // mapped to Alt + Enter (formerly Ctrl + .)
+
     "window.zoomLevel": 0,
 
     // --------------------------------------------------------------------------------
     
     // "window.compositionAttribute": "acrylic",
-    
+
     "workbench.colorTheme": "Atom One Dark",
 	// "workbench.colorTheme": "One Dark Pro Vivid",
     
@@ -89,7 +95,7 @@
     // "editor.cursorSmoothCaretAnimation": true,
     // "editor.cursorStyle": "block",
     
-    // "editor.smoothScrolling": true,
+    "editor.smoothScrolling": true,
 	// "editor.mouseWheelScrollSensitivity": 2,
     "editor.scrollBeyondLastLine": true,
 
@@ -102,7 +108,9 @@
     "workbench.activityBar.visible": true,
 
     "workbench.sideBar.location": "left",
-    
+
+    "workbench.list.smoothScrolling": true,
+
     // "explorer.openEditors.visible": 0,
     // "explorer.confirmDelete": false,
     // "explorer.decorations.badges": false,
