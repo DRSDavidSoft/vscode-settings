@@ -431,8 +431,17 @@
 	],
 	
 	"cSpell.language": "en,en-US,en-GB",
-	"cSpell.userWords": []
+	"cSpell.userWords": [],
 
 	// --------------------------------------------------------------------------------
+	"emmet.includeLanguages": {
+        "django-html": "html"
+	},
+	"python.languageServer": "Pylance",
+	"python.defaultInterpreterPath": "/bin/python3",
+	"python.pythonPath": "python3",
+        "code-runner.executorMap": {
+        "python": "/usr/bin/python3"
+	},
 	
 }
