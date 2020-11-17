@@ -7,7 +7,7 @@
  *
  */
 
- {
+{
 
 	// --------------------------------------------------------------------------------
 
@@ -43,7 +43,7 @@
 	"editor.tabSize": 4,
 	"editor.insertSpaces": false, // I prefer tabs
 
-	"editor.fontFamily": "'Hasklig', 'Source Code Pro', 'Fira Code', 'Cascadia Code', Consolas, Menlo, 'SF Mono', 'Monaco', 'Andale Mono', 'Lucida Console', 'Bitstream Vera Sans Mono', monospace",
+	"editor.fontFamily": "'Hasklig', 'Source Code Pro', 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, Menlo, 'SF Mono', 'Droid Sans Mono', 'Monaco', 'Andale Mono', 'Lucida Console', 'Bitstream Vera Sans Mono', 'Share-TechMono', 'Monoid', monospace",
 	"editor.fontLigatures": true,
 
 	"editor.detectIndentation": true,
@@ -83,6 +83,9 @@
 	// --------------------------------------------------------------------------------
 	
 	// "window.compositionAttribute": "acrylic",
+
+	// "workbench.colorTheme": "Ninja Ui Vibrant",
+	// "workbench.iconTheme": "material-icon-theme",
 
 	"workbench.colorTheme": "Atom One Dark",
 	// "workbench.colorTheme": "One Dark Pro Vivid",
@@ -304,26 +307,26 @@
 			"strikethrough": false,
 			"backgroundColor": "transparent"
 		},
-		/*
 		{
-			"tag": "TODO",
+			"tag": ":",
 			"color": "#eb3b5a",
 			"strikethrough": false,
 			"backgroundColor": "transparent"
 		},
-		*/
 		{
 			"tag": "*",
 			"color": "#f7b731",
 			"strikethrough": false,
 			"backgroundColor": "transparent"
 		},
+		/*
 		{
 			"tag": "#",
 			"color": "#9c88ff",
 			"strikethrough": false,
 			"backgroundColor": "transparent"
 		},
+		*/
 	],
 
 	// Highlight Matching Tag – Highlights matching closing and opening tags
@@ -379,6 +382,9 @@
 	"http.proxy": "http://localhost:3128/",
 	"https.proxy": "http://localhost:3128/",
 
+	"telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+
 	// --------------------------------------------------------------------------------
 	
 	// "debug.node.autoAttach": "on"
@@ -431,7 +437,28 @@
 	],
 	
 	"cSpell.language": "en,en-US,en-GB",
-	"cSpell.userWords": []
+	"cSpell.userWords": [
+        "Jahan",
+        "Kint",
+        "Refoua",
+        "Shorthands",
+        "autoit",
+        "autoitx",
+        "automation",
+        "barcode",
+        "chainable",
+        "cleancss",
+        "dropdown",
+        "keyframes",
+        "rebundle",
+        "regexptitle",
+        "st",
+        "textfield",
+        "unblocker",
+        "uncheck",
+        "uncropped",
+        "unfocus"
+	]
 
 	// --------------------------------------------------------------------------------
 	
