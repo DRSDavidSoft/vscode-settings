@@ -94,5 +94,14 @@
 {   "key": "alt+enter", /* "ctrl+.", */
 	"command": "editor.action.quickFix",
 	"when": "editorTextFocus"
+},
+{
+	"key": "ctrl+shift+f10",
+	"command": "revealFileInOS"
+},
+{
+	"key": "shift+alt+r",
+	"command": "-revealFileInOS",
+	"when": "!editorFocus"
 }
 ]
