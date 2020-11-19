@@ -17,8 +17,8 @@
 	"window.titleBarStyle": "custom",
 	// "window.transparency": "fluent",
 
-	"terminal.integrated.fontFamily": "'Source Code Pro', Consolas, agave, 'Cascadia Code', 'Hasklig', 'Fira Code', Menlo, 'SF Mono', 'DejaVu Sans Mono', 'Lucida Console', 'Bitstream Vera Sans Mono', monospace",
-	"terminal.integrated.fontSize": 12,
+	"terminal.integrated.fontFamily": "agave, 'Source Code Pro', Consolas, 'Cascadia Code', 'Hasklig', 'Fira Code', Menlo, 'SF Mono', 'DejaVu Sans Mono', 'Lucida Console', 'Bitstream Vera Sans Mono', monospace",
+	"terminal.integrated.fontSize": 14,
 
 	"terminal.integrated.fontWeight": "400",
 	"terminal.integrated.fontWeightBold": "600",
@@ -38,12 +38,12 @@
 
 	"editor.renderWhitespace": "none", // "selection", "trailing"
 	
-	"editor.fontSize": 12,
+	"editor.fontSize": 14,
 	"editor.dragAndDrop": true,
 	"editor.tabSize": 4,
 	"editor.insertSpaces": false, // I prefer tabs
 
-	"editor.fontFamily": "'Hasklig', 'Source Code Pro', 'Fira Code', 'Cascadia Code', Consolas, Menlo, 'SF Mono', 'Monaco', 'Andale Mono', 'Lucida Console', 'Bitstream Vera Sans Mono', monospace",
+	"editor.fontFamily": "agave, 'Source Code Pro', 'Fira Code', 'Cascadia Code', Consolas, Menlo, 'SF Mono', 'Monaco', 'Andale Mono', 'Lucida Console', 'Bitstream Vera Sans Mono', monospace",
 	"editor.fontLigatures": true,
 
 	"editor.detectIndentation": true,
@@ -84,10 +84,10 @@
 	
 	// "window.compositionAttribute": "acrylic",
 
-	"workbench.colorTheme": "Atom One Dark",
+	"workbench.colorTheme": "Shades of Purple",
 	// "workbench.colorTheme": "One Dark Pro Vivid",
 	
-	"workbench.iconTheme": "eq-material-theme-icons",
+	"workbench.iconTheme": "material-icon-theme",
 	// "workbench.iconTheme": "file-icons",
 	
 	"editor.cursorBlinking": "smooth", // phase
@@ -376,8 +376,6 @@
 	"git.autofetch": true,
 	"git.enableSmartCommit": true,
 	
-	"http.proxy": "http://localhost:3128/",
-	"https.proxy": "http://localhost:3128/",
 
 	// --------------------------------------------------------------------------------
 	
@@ -434,14 +432,17 @@
 	"cSpell.userWords": [],
 
 	// --------------------------------------------------------------------------------
-	"emmet.includeLanguages": {
+    "emmet.includeLanguages": {
         "django-html": "html"
 	},
 	"python.languageServer": "Pylance",
 	"python.defaultInterpreterPath": "/bin/python3",
 	"python.pythonPath": "python3",
-        "code-runner.executorMap": {
+    "code-runner.executorMap": {
         "python": "/usr/bin/python3"
 	},
+	"editor.semanticTokenColorCustomizations": null,
+	"editor.rulers": [
 	
+	],
 }
