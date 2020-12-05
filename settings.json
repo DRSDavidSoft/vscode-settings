@@ -383,7 +383,7 @@
 	"https.proxy": "http://localhost:3128/",
 
 	"telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
+	"telemetry.enableTelemetry": false,
 
 	// --------------------------------------------------------------------------------
 	
@@ -410,7 +410,7 @@
 			"label": "Termux (local)",
 			"name": "termux-local",
 			"port": 8022,
-			"privateKeyPath": "$USERPROFILE/.ssh/github_rsa",
+			"privateKeyPath": "$USERPROFILE/.ssh/id_rsa",
 			"root": "~",
 			"username": "$USERNAME"
 		}
