@@ -7,7 +7,7 @@
  *
  */
 
-{
+ {
 
 	// --------------------------------------------------------------------------------
 
@@ -17,7 +17,7 @@
 	"window.titleBarStyle": "custom",
 	// "window.transparency": "fluent",
 
-	"terminal.integrated.fontFamily": "'Source Code Pro', Consolas, agave, 'Cascadia Code', 'Hasklig', 'Fira Code', Menlo, 'SF Mono', 'DejaVu Sans Mono', 'Lucida Console', 'Bitstream Vera Sans Mono', monospace",
+	"terminal.integrated.fontFamily": "'Source Code Pro', 'JetBrains Mono', Iosevka, Inconsolata, InputMono, Hack, Cousine, Bront, agave, Hermit, 'Source Code Pro', Consolas, 'Cascadia Code', Hasklig, 'Fira Code', Menlo, 'SF Mono', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Lucida Console', 'Bitstream Vera Sans Mono', monospace",
 	"terminal.integrated.fontSize": 12,
 
 	"terminal.integrated.fontWeight": "400",
@@ -30,9 +30,11 @@
 	"terminal.integrated.shell.windows": "cmd.exe",
 
 	"terminal.integrated.shellArgs.windows": [
-		"/k", "cd /d %CD% & ver &",
+		"/k", // "cd /d %CD% & ver &",
 		"%CMDER_ROOT%\\vendor\\init.bat"
 	],
+
+	// "terminal.integrated.tabs.enabled": true,
 
 	// "terminal.external.windowsExec": "C:\\development\\cmder\\Cmder.exe",
 
@@ -71,6 +73,7 @@
 	"editor.accessibilitySupport": "off",
 
 	"workbench.startupEditor": "none", // "newUntitledFile",
+	"workbench.editor.untitled.hint": "hidden",
 	
 	// "editor.occurrencesHighlight": false,
 	// "editor.selectionHighlight": false,
@@ -84,6 +87,7 @@
 	
 	// "window.compositionAttribute": "acrylic",
 
+	// "workbench.colorTheme": "Dracula",
 	// "workbench.colorTheme": "Ninja Ui Vibrant",
 	// "workbench.iconTheme": "material-icon-theme",
 
@@ -111,6 +115,7 @@
 	"workbench.activityBar.visible": true,
 
 	"workbench.sideBar.location": "left",
+	"workbench.editor.wrapTabs": false,
 
 	"workbench.list.smoothScrolling": true,
 
@@ -127,12 +132,12 @@
 	// Shortcut Menu Bar – Adds buttons to editor menu bar (e.g. Save button)
 	// https://marketplace.visualstudio.com/items?itemName=jerrygoyal.shortcut-menu-bar
 
-	"Navigate back": false,
-	"Open files list": false,
-	"Beautify active file": false,
-	"Navigate forward": false,
-	"Toggle terminal": false,
-	"Save active file": true,
+	"ShortcutMenuBar.beautify": false,
+	"ShortcutMenuBar.navigateBack": false,
+	"ShortcutMenuBar.navigateForward": false,
+	"ShortcutMenuBar.openFilesList": false,
+	"ShortcutMenuBar.toggleTerminal": false,
+	"ShortcutMenuBar.save": true,
 
 	// --------------------------------------------------------------------------------
 	
@@ -149,17 +154,18 @@
 		"textLink.foreground": "#00BCD4",
 		"progressBar.background": "#00BCD4",
 		"pickerGroup.foreground": "#00BCD4",
-		"tab.activeBorder": "#00BCD4",
+		// "tab.activeBorder": "#00BCD4",
 		"notificationLink.foreground": "#00BCD4",
-		//"sideBar.background": "#00000077",
-		//"activityBar.background": "#ffffff00"
+		// "sideBar.background": "#00000077",
+		// "activityBar.background": "#ffffff00"
 		// "editor.selectionBackground": "#0556b9",
-		"editor.selectionHighlightBackground": "#192a56dd",
+		// "editor.selectionHighlightBackground": "#192a56dd",
 		"editor.wordHighlightBackground": "#00000010",
-		//"editor.wordHighlightStrongBackground": "#ff0000",
-		//"editorCursor.foreground": "#5f27cd",
-		//"editor.lineHighlightBackground": "#f00",
+		// "editor.wordHighlightStrongBackground": "#ff0000",
+		// "editorCursor.foreground": "#5f27cd",
+		// "editor.lineHighlightBackground": "#f00",
 		"editor.hoverHighlightBackground": "#222f3e",
+		"sash.hoverBorder": "#00000000"
 	},
 	*/
 	
@@ -167,6 +173,8 @@
 		"accent": "Cyan",
 		"accentPrevious": "Sky"
 	},
+
+	"workbench.sash.size": 2,
 	
 	// --------------------------------------------------------------------------------
 
@@ -375,15 +383,16 @@
 	
 	// --------------------------------------------------------------------------------
 	
+	"git.enabled": true,
 	"git.confirmSync": false,
 	"git.autofetch": true,
 	"git.enableSmartCommit": true,
-	
+
 	"http.proxy": "http://localhost:3128/",
 	"https.proxy": "http://localhost:3128/",
 
 	"telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
+	"telemetry.enableTelemetry": false,
 
 	// --------------------------------------------------------------------------------
 	
@@ -398,9 +407,11 @@
 	"phpcs.enable": false,
 	"phpcs.standard": "C:\\Users\\David\\ruleset.xml",
 
+	"phpfmt.detect_indent": true,
+
 	"arduino.path": "C:\\development\\Arduino\\arduino",
 
-	"php.suggest.basic": false,
+	"php.suggest.basic": true,
 
 	"java.semanticHighlighting.enabled": true,
 	
@@ -410,7 +421,7 @@
 			"label": "Termux (local)",
 			"name": "termux-local",
 			"port": 8022,
-			"privateKeyPath": "$USERPROFILE/.ssh/github_rsa",
+			"privateKeyPath": "$USERPROFILE/.ssh/id_rsa",
 			"root": "~",
 			"username": "$USERNAME"
 		}
@@ -458,7 +469,20 @@
         "uncheck",
         "uncropped",
         "unfocus"
-	]
+	],
+
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features" // "HookyQR.beautify"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
 
 	// --------------------------------------------------------------------------------
 	
