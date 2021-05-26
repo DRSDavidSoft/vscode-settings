@@ -81,6 +81,7 @@
 
 	"editor.lightbulb.enabled": true, // mapped to Alt + Enter (formerly Ctrl + .)
 
+	"editor.mouseWheelZoom": false, // true
 	"window.zoomLevel": 0,
 
 	// --------------------------------------------------------------------------------
@@ -414,6 +415,8 @@
 	"php.suggest.basic": true,
 
 	"java.semanticHighlighting.enabled": true,
+
+	"Lua.telemetry.enable": false,
 	
 	"sshfs.configs": [
 		{
