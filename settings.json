@@ -51,6 +51,7 @@
 	"editor.detectIndentation": true,
 	// "editor.insertSpaces": false,
 
+	// "editor.semanticTokenColorCustomizations": null,
 	// "editor.scrollbar.verticalScrollbarSize": 5,
 	// "editor.rulers": [ 80 ]
 
@@ -87,6 +88,8 @@
 	// --------------------------------------------------------------------------------
 	
 	// "window.compositionAttribute": "acrylic",
+
+	// "workbench.colorTheme": "Shades of Purple",
 
 	// "workbench.colorTheme": "Dracula",
 	// "workbench.colorTheme": "Ninja Ui Vibrant",
@@ -417,6 +420,18 @@
 	"java.semanticHighlighting.enabled": true,
 
 	"Lua.telemetry.enable": false,
+
+	"python.languageServer": "Pylance",
+	"python.defaultInterpreterPath": "/bin/python3",
+	"python.pythonPath": "python3",
+
+	"emmet.includeLanguages": {
+		"django-html": "html"
+	},
+
+	"code-runner.executorMap": {
+		"python": "/usr/bin/python3"
+	},
 	
 	"sshfs.configs": [
 		{
